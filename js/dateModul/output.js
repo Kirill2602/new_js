@@ -1,5 +1,4 @@
 const parag = document.getElementById('output');
-const timerParag = document.getElementById('timerParag');
 export function printError(errorText) {
     parag.innerHTML = errorText;
 }

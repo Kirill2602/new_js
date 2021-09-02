@@ -1,5 +1,4 @@
 import { DateTime } from "https://moment.github.io/luxon/es6/luxon.min.js";
-
 export default function (dateFromString, dateToString) {
     if (dateFromString < dateToString) {
         [dateFromString, dateToString] = [dateToString, dateFromString];
