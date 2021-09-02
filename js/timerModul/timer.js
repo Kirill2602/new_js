@@ -20,7 +20,6 @@ const updateStartFunc = startButton.addEventListener('click', () => {
 
     interval = setInterval(updateTimerParag, 1000);
 });
-
 function updateTimerParag() {
     let hours = Math.floor(time / 3600);
     let minutes = Math.floor(time / 60);
@@ -35,9 +34,7 @@ function updateTimerParag() {
     } else {
         time--;
     }
-
 }
-
 export { updateStartFunc, sound, interval }
 
 

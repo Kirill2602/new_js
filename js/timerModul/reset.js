@@ -5,5 +5,4 @@ const resetB = resetBtn.addEventListener('click', function () {
     resetInput.value = ''
     timerParag.innerText = '';
 });
-
 export { resetB }
