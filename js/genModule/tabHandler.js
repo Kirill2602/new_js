@@ -10,7 +10,6 @@ const date = buttonDate.addEventListener('click', function () {
         timerForm.classList.remove('getBlock');
     }
 });
-
 const timer = buttonTimer.addEventListener('click', function () {
     timerForm.classList.add('getBlock');
     if (timerForm.classList.contains('getBlock')) {

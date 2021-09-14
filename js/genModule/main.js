@@ -4,6 +4,7 @@ import { date, timer } from '../genModule/tabHandler.js';
 import { resetB } from '../timerModul/reset.js';
 import { updateStartFunc } from '../timerModul/timer.js';
 import { stopFunc } from '../timerModul/stop.js';
+import '/styles/style.css';
 
 const form = document.getElementById('calcDate');
 form.onsubmit = function (event) {

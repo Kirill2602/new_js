@@ -1,4 +1,7 @@
-import { stopButton } from './stop.js';
+import {stopButton} from './stop.js';
+import {Howl} from 'howler';
+import soundSrc from '/mp3/clock_alert_x8.mp3';
+
 export const timerParag = document.getElementById('timerParag');
 const startButton = document.getElementById('start');
 let startingMinutes;
@@ -6,8 +9,8 @@ let time;
 let interval;
 
 var sound = new Howl({
-    src: ['mp3/clock_alert_x8.mp3']
-})
+    src: [soundSrc]
+});
 
 const updateStartFunc = startButton.addEventListener('click', () => {
     startingMinutes = parseInt(document.getElementById('time').value);
@@ -35,9 +38,8 @@ function updateTimerParag() {
     } else {
         time--;
     }
-
 }
 
-export { updateStartFunc, sound, interval }
+export {updateStartFunc, sound, interval}
 
 
