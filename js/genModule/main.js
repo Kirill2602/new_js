@@ -5,10 +5,6 @@ import { resetB } from '../timerModul/reset.js';
 import { updateStartFunc } from '../timerModul/timer.js';
 import { stopFunc } from '../timerModul/stop.js';
 import '/styles/style.css';
-import bundlerMus from '/mp3/clock_alert_x8.mp3';
-
-const music = document.createElement('mus');
-mus.src = bundlerMus;
 
 const form = document.getElementById('calcDate');
 form.onsubmit = function (event) {

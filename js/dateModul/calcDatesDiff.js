@@ -1,4 +1,4 @@
-import {DateTime} from '/js/dateModul/luxon.min.js';
+import {DateTime} from 'luxon';
 
 export default function (dateFromString, dateToString) {
     if (dateFromString < dateToString) {
